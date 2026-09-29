@@ -1,0 +1,56 @@
+{
+  "_note": "ALL IMAGES ON THE SITE. Paste a link between the quotes of \"url\": a web address (https://...) or a file in the images folder (images/me.jpg). An empty url shows a gradient placeholder, so nothing breaks. \"alt\" is a short description for screen readers and search engines. _where tells you where the image appears and the best size. Images fill their frame and may be cropped at the edges; add \"fit\": \"contain\" to an image to show it whole instead (handy for screenshots).",
+
+  "site": {
+    "portrait": {
+      "_where": "About page — large photo on the left. Portrait 3:4, about 1200 × 1600 px.",
+      "url": "",
+      "alt": "Portrait of {person.firstName} {person.lastName}"
+    },
+    "logo": {
+      "_where": "Round logo in the top-left corner. Square, about 200 × 200 px. Empty = your initials.",
+      "url": "",
+      "alt": "{person.firstName} {person.lastName}"
+    },
+    "favicon": {
+      "_where": "Small icon in the browser tab. Square PNG or SVG, 64 × 64 px.",
+      "url": ""
+    }
+  },
+
+  "_projectsNote": "One block per project, with the SAME id as in projects.json. cover = the card in the Work slider/grid and the first image on the project page (landscape 16:10, about 1600 × 1000 px). gallery = extra images on the project page, in this order; add as many as you like.",
+
+  "projects": {
+    "project-one": {
+      "cover":   { "url": "", "alt": "Cover of Project One" },
+      "gallery": [
+        { "url": "", "alt": "" },
+        { "url": "", "alt": "" },
+        { "url": "", "alt": "" }
+      ]
+    },
+    "project-two": {
+      "cover":   { "url": "images/cover.jpg", "alt": "Cover of Project Two" },
+      "gallery": [
+        { "url": "", "alt": "" },
+        { "url": "", "alt": "" }
+      ]
+    },
+    "project-three": {
+      "cover":   { "url": "", "alt": "Cover of Project Three" },
+      "gallery": [
+        { "url": "", "alt": "" },
+        { "url": "", "alt": "" },
+        { "url": "", "alt": "" },
+        { "url": "", "alt": "" }
+      ]
+    },
+    "project-four": {
+      "cover":   { "url": "", "alt": "Cover of Project Four" },
+      "gallery": [
+        { "url": "", "alt": "" },
+        { "url": "", "alt": "" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "_note": "YOUR PROJECTS. Each block between { } is one project; the order here is the order on the site. To add a project: copy a whole block (from { to }), paste it after the last one, put a comma between the blocks, and give it a new unique id. Images for a project go in images.json under the same id.",
+
+  "_fields": {
+    "id": "Unique name without spaces, used in the link (#/work/your-id) and to match images in images.json",
+    "title": "Project name",
+    "type": "Kind of project, e.g. Branding, UX / UI, Motion, Web design",
+    "course": "The course / module it was made for",
+    "year": "e.g. 2026 or Year 2",
+    "tools": "List of tools, e.g. [\"Figma\", \"After Effects\"]",
+    "summary": "One sentence, shown in the Work slider",
+    "overview": "Overview tab. One text, or a list of paragraphs: [\"First.\", \"Second.\"]",
+    "process": "Process tab. Same as overview",
+    "result": "Result tab. Same as overview",
+    "link": "Optional link to a live version. Leave \"\" to hide the button",
+    "hidden": "true = not shown on the site (handy for drafts)"
+  },
+
+  "projects": [
+    {
+      "id": "project-one",
+      "title": "Immersive Environments",
+      "type": "Design",
+      "course": "Minor CMD",
+      "year": "2025-2026",
+      "tools": ["Touchdesigner", "Ableton Live", "Mapping software"],
+      "summary": "Making hand tracking and projection mapping work together to create an immersive environment.",
+      "overview": [
+        "Making an interactive immersive installation based on the word: Paradox",
+        "Commissioned by audiovisual artist Max Cooper."
+      ],
+      "process": [
+        "How did you get there? Research, sketches, concepts, iterations.",
+        "Mention a key decision and why you made it."
+      ],
+      "result": [
+        "What did you deliver, and how did it turn out?",
+        "What did you learn, and what would you do differently next time?"
+      ],
+      "link": "",
+      "hidden": false
+    },
+    {
+      "id": "project-two",
+      "title": "Internship - Studio Play",
+      "type": "UI / Software engineering",
+      "course": "Internship",
+      "year": "2026",
+      "tools": ["Processing - Javascript", "Max8/7"],
+      "summary": "Making a UI for an ongoing project at Studio Play, Digital Graffiti",
+      "overview": "What was the assignment? Describe the brief, the context and the goal.",
+      "process": "How did you get there? Research, sketches, concepts, iterations.",
+      "result": "What did you deliver, how did it turn out and what did you learn?",
+      "link": "",
+      "hidden": false
+    },
+    {
+      "id": "project-three",
+      "title": "Project Three",
+      "type": "Motion",
+      "course": "Course name",
+      "year": "2025",
+      "tools": ["Tool", "Tool", "Tool", "Tool"],
+      "summary": "A one-sentence summary describing what this project is about.",
+      "overview": "What was the assignment? Describe the brief, the context and the goal.",
+      "process": "How did you get there? Research, sketches, concepts, iterations.",
+      "result": "What did you deliver, how did it turn out and what did you learn?",
+      "link": "",
+      "hidden": false
+    },
+    {
+      "id": "project-four",
+      "title": "Project Four",
+      "type": "Web design",
+      "course": "Course name",
+      "year": "2025",
+      "tools": ["Tool", "Tool"],
+      "summary": "A one-sentence summary describing what this project is about.",
+      "overview": "What was the assignment? Describe the brief, the context and the goal.",
+      "process": "How did you get there? Research, sketches, concepts, iterations.",
+      "result": "What did you deliver, how did it turn out and what did you learn?",
+      "link": "",
+      "hidden": false
+    }
+  ]
+}
